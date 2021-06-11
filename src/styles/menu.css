@@ -5,6 +5,7 @@ picture {
   flex-flow: column;
 }
 picture img {
-  height: 80vh;
+  margin-bottom: 1rem;
+  height: 60vh;
   width: 90vw;
 }
