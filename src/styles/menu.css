@@ -1,0 +1,10 @@
+picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+picture img {
+  height: 80vh;
+  width: 90vw;
+}
