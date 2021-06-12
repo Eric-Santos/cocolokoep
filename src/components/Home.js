@@ -45,9 +45,25 @@ const Home = () => {
             praesentium, distinctio aliquam nulla corrupti repellat, voluptatem
             neque voluptate molestias nemo porro!
           </p>
-          <Link to='menu'><button>See Our Menu</button></Link>
+          <Link to="menu">
+            <button>See Our Menu</button>
+          </Link>
         </div>
-        
+        <h1 className="foods-title">New Food and Drinks</h1>
+        <div className="new-foods">
+          <div className="item">
+            <img src="images/placeholderFish.jpg" alt="fish" />
+            <h2>Food 1</h2>
+          </div>
+          <div className="item">
+            <img src="images/placeholderFish.jpg" alt="fish" />
+            <h2>Food 2</h2>
+          </div>
+          <div className="item">
+            <img src="images/placeholderFish.jpg" alt="fish" />
+            <h2>Food 3</h2>
+          </div>
+        </div>
       </main>
     </>
   );
