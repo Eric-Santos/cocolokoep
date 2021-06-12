@@ -14,3 +14,9 @@ nav .link {
   padding: 1.5rem;
   color: black;
 }
+.mobile-menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
