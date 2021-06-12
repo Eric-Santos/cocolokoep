@@ -1,8 +1,11 @@
 nav {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    @media screen and (min-width:960px){
+        display: flex;
+    }
 .link {
     text-decoration: none;
     padding: 1.5rem;
