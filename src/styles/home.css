@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding: 1rem;
 }
 .home .featured {
   display: flex;
