@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const Menu = () => {
   return (
-    <div>
+    <div className="menu">
       <Navbar />
       <picture>
         <img
