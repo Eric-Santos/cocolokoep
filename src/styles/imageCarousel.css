@@ -3,3 +3,9 @@
     height: 100vh;
   }
 }
+@media screen and (min-width: 960px) {
+  .carousel img {
+    height: 90vh;
+    width: 80vw;
+  }
+}

@@ -11,15 +11,11 @@ const ImageCarousel = () => (
     autoPlay
     className="carousel"
   >
-    <div>
-      <img alt="" src="images/placeholderFish.jpg" />
-    </div>
-    <div>
-      <img alt="" src="images/placeholderFish.jpg" />
-    </div>
-    <div>
-      <img alt="" src="images/placeholderFish.jpg" />
-    </div>
+    <img alt="" src="images/temp/dish.jpg" />
+
+    <img alt="" src="images/temp/fourFish.jpg" />
+
+    <img alt="" src="images/temp/octopus.jpg" />
   </Carousel>
 );
 export default ImageCarousel;

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/home.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import {Link} from 'react-router-dom'
 import ImageCarousel from "./ImageCarousel";
 
@@ -10,60 +11,41 @@ const Home = () => {
       <Navbar />
       <main className="home">
         <div className="hero">
+          <h1>Coco Loko</h1>
           <ImageCarousel />
         </div>
+        <div className="hours">
+          <h1>Open Wed - Sunday</h1>
+          <h2>Noon - 10pm</h2>
+        </div>
+
+        {/* Imgae Gallery Section */}
+        <h1 className="foods-title">Food and Drinks</h1>
+        <div className="gallery">
+          <div className="item">
+            <img src="images/temp/placeholderFish.jpg" alt="fish" />
+          </div>
+          <div className="item">
+            <img src="images/temp/placeholderFish.jpg" alt="fish" />
+          </div>
+          <div className="item">
+            <img src="images/temp/placeholderFish.jpg" alt="fish" />
+          </div>
+        </div>
         <div className="featured">
-          <h1>Featured Item 1</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-            culpa nihil harum magnam dolor perferendis aliquam sit vitae dolores
-            ipsam laboriosam tenetur. Ea consectetur nobis incidunt minus esse
-            praesentium, distinctio aliquam nulla corrupti repellat, voluptatem
-            neque voluptate molestias nemo porro!
-          </p>
-          <h1>Featured Item 2</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-            culpa nihil harum magnam dolor perferendis aliquam sit vitae dolores
-            ipsam laboriosam tenetur. Ea consectetur nobis incidunt minus esse
-            praesentium, distinctio aliquam nulla corrupti repellat, voluptatem
-            neque voluptate molestias nemo porro!
-          </p>
-          <h1>Featured Item 3</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-            culpa nihil harum magnam dolor perferendis aliquam sit vitae dolores
-            ipsam laboriosam tenetur. Ea consectetur nobis incidunt minus esse
-            praesentium, distinctio aliquam nulla corrupti repellat, voluptatem
-            neque voluptate molestias nemo porro!
-          </p>
-          <h1>Featured Item 4</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-            culpa nihil harum magnam dolor perferendis aliquam sit vitae dolores
-            ipsam laboriosam tenetur. Ea consectetur nobis incidunt minus esse
-            praesentium, distinctio aliquam nulla corrupti repellat, voluptatem
-            neque voluptate molestias nemo porro!
-          </p>
+          <h1>Our Specialty</h1>
+          <img src="images/temp/restaurant.jpg" alt="placeholder" />
+          <img src="images/temp/placeholderFish.jpg" alt="placeholder" />
+          <img src="images/temp/plantRestaurant.jpg" alt="placeholder" />
           <Link to="menu">
-            <button>See Our Menu</button>
+            <button>Our Menu</button>
           </Link>
         </div>
-        <h1 className="foods-title">New Food and Drinks</h1>
-        <div className="new-foods">
-          <div className="item">
-            <img src="images/placeholderFish.jpg" alt="fish" />
-            <h2>Food 1</h2>
-          </div>
-          <div className="item">
-            <img src="images/placeholderFish.jpg" alt="fish" />
-            <h2>Food 2</h2>
-          </div>
-          <div className="item">
-            <img src="images/placeholderFish.jpg" alt="fish" />
-            <h2>Food 3</h2>
-          </div>
+        <div className="ingredients">
+          <h1>Fresh & Local Ingredients</h1>
+          <img src="images/temp/placeholderFish.jpg" alt="placeholder" />
         </div>
+        <Footer />
       </main>
     </>
   );

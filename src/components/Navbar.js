@@ -18,6 +18,7 @@ const Navbar = () => {
         <Link to="/specials" className="link">
           <h1>Specials</h1>
         </Link>
+        <h1>Logo</h1>
         <Link to="/about" className="link">
           <h1>About</h1>
         </Link>
@@ -30,7 +31,7 @@ const Navbar = () => {
       </nav>
       <div className="mobile-menu-bar">
         <h1>Logo</h1>
-        <HiOutlineMenu className="menu-icon" size='30' />
+        <HiOutlineMenu className="menu-icon" size="30" />
       </div>
     </>
   );

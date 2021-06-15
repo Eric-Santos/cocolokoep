@@ -1,18 +1,23 @@
 .home {
-    background-image: url('../bkg-images/beach.webp');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-image: url('../bkg-images/pattern.webp');
     background-attachment: fixed;
     background-size: cover;
     background-color: #30d5c8;
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 2rem;
     .hero {
         display: flex;
         justify-content: center;
         align-items: center;
-        
+        flex-flow: column;
         padding: 1rem;
         @media screen and (min-width:960px){
-            
+            width: 90vw;
         }
     }
     .featured {
@@ -21,14 +26,20 @@
         align-items: center;
         flex-flow:column;
         padding:2rem 1.5rem;
-       
+        img {
+            margin-bottom: 1rem;
+            @media screen and (min-width:960px){
+            height: 100vh;
+            width: 80vw;
+            }
+        }
     }
     .foods-title {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .new-foods {
+    .gallery {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -48,7 +59,14 @@
         @media screen and (min-width:960px){
             width: 20vw;
         }
+        }
     }
     }
-}
+    .hours {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow:column;
+        height: 80vh;
+    }
 }

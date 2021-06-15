@@ -20,3 +20,8 @@ nav .link {
   align-items: center;
   padding: 1rem;
 }
+@media screen and (min-width: 960px) {
+  .mobile-menu-bar {
+    display: none;
+  }
+}

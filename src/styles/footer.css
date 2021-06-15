@@ -1,0 +1,20 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 100vh;
+}
+@media screen and (min-width: 960px) {
+  footer {
+    justify-content: space-evenly;
+    height: 60vh;
+    flex-flow: row wrap;
+  }
+}
+footer .icons {
+  flex-flow: row;
+}
+footer .icons .icon {
+  margin: 1rem;
+}
