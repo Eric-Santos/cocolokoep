@@ -3,14 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  background-image: url('../bkg-images/bck-mobile-960w.webp');
-  background-attachment: fixed;
-  background-size: contain;
   background-color: #30d5c8;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: auto;
-  width: auto;
 }
 .home .hero {
   display: flex;

@@ -1,0 +1,13 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.about img {
+  width: 45%;
+  height: auto;
+}
+.about p {
+  width: 45vw;
+}
