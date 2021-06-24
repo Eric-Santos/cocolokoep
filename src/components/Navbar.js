@@ -1,14 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { HiOutlineMenu } from "react-icons/hi";
 import "../styles/navbar.css";
 
-
-
 const Navbar = () => {
+  const [isActive, setIsActive] = useState(false);;
+
+  const handleClick = () => {
+    setIsActive(!isActive)
+    console.log(isActive)
+  }
+
   return (
     <>
-      <nav>
+      <div className="mobile-menu-bar">
+        <h1>Logo</h1>
+        <HiOutlineMenu className="menu-icon" size="30" onClick={handleClick} />
+      </div>
+      <nav className={isActive ? "open" : null}>
         <Link to="/" className="link">
           <h1>Home</h1>
         </Link>
@@ -29,10 +38,6 @@ const Navbar = () => {
           <h1>Careers</h1>
         </Link>
       </nav>
-      <div className="mobile-menu-bar">
-        <h1>Logo</h1>
-        <HiOutlineMenu className="menu-icon" size="30" />
-      </div>
     </>
   );
 };
