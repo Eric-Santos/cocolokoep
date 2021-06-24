@@ -25,6 +25,10 @@ nav .link {
     display: none;
   }
 }
+.mobile-menu-bar .link {
+  text-decoration: none;
+  color: black;
+}
 .mobile-menu-bar .menu-icon {
   z-index: 9999;
 }

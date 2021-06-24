@@ -13,7 +13,9 @@ const Navbar = () => {
   return (
     <>
       <div className="mobile-menu-bar">
-        <h1>Logo</h1>
+        <Link to='/' className='link'>
+          <h1>Logo</h1>
+        </Link>
         <HiOutlineMenu className="menu-icon" size="30" onClick={handleClick} />
       </div>
       <nav className={isActive ? "open" : null}>
