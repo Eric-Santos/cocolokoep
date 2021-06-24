@@ -15,6 +15,9 @@ footer {
 footer .icons {
   flex-flow: row;
 }
-footer .icons .icon {
+footer .icons a {
+  color: black;
+}
+footer .icons a .icon {
   margin: 1rem;
 }
