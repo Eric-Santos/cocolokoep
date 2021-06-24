@@ -20,7 +20,7 @@
 }
 @media screen and (min-width: 960px) {
   .home .hero {
-    width: 90vw;
+    width: 60vw;
   }
 }
 .home .featured {

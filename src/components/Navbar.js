@@ -4,11 +4,10 @@ import { HiOutlineMenu } from "react-icons/hi";
 import "../styles/navbar.css";
 
 const Navbar = () => {
-  const [isActive, setIsActive] = useState(false);;
+  const [isActive, setIsActive] = useState(false);
 
   const handleClick = () => {
-    setIsActive(!isActive)
-    console.log(isActive)
+    setIsActive(!isActive);
   }
 
   return (
@@ -24,6 +23,7 @@ const Navbar = () => {
         <Link to="/menu" className="link">
           <h1>Menu</h1>
         </Link>
+        {/* no specials available as of right now */}
         {/* <Link to="/specials" className="link">
           <h1>Specials</h1>
         </Link> */}
