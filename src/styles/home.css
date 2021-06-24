@@ -30,12 +30,13 @@
   padding: 2rem 1.5rem;
 }
 .home .featured img {
+  height: auto;
   margin-bottom: 1rem;
 }
 @media screen and (min-width: 960px) {
   .home .featured img {
-    height: 100vh;
-    width: 80vw;
+    height: auto;
+    width: 50vw;
   }
 }
 .home .foods-title {
@@ -77,4 +78,14 @@
   align-items: center;
   flex-flow: column;
   height: 60vh;
+}
+.home .ingredients img {
+  height: auto;
+  width: 90vw;
+  margin: 1rem;
+}
+@media screen and (min-width: 960px) {
+  .home .ingredients img {
+    width: 50vw;
+  }
 }

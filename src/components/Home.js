@@ -24,19 +24,21 @@ const Home = () => {
         <div className="gallery">
           <div className="item">
             <img
-              srcSet="images/items/item3-480w.webp 480w,
-             images/items/item3.webp 800w"
+              srcSet="images/items/item1-480w.webp 480w,
+             images/items/item1-800w.webp 800w"
               sizes="(max-width: 600px) 480px,
             800px"
-              src="images/items/item3-800w.webp"
-              alt="item 3"
+              src="images/items/item1-800w.webp"
+              alt="first drink"
+              height="619"
+              width="800"
             />
           </div>
           <div className="item">
             <img
-              srcSet="images/drinks/drink2-480w.webp 500w,
+              srcSet="images/drinks/drink2-480w.webp 480w,
              images/drinks/drink2-800w.webp 800w"
-              sizes="(max-width: 600px) 500px,
+              sizes="(max-width: 600px) 480px,
             800px"
               src="images/drinks/drink2-800w.webp"
               alt="first drink"
@@ -46,9 +48,9 @@ const Home = () => {
           </div>
           <div className="item">
             <img
-              srcSet="images/drinks/drink3-480w.webp 500w,
+              srcSet="images/drinks/drink3-480w.webp 480w,
              images/drinks/drink3-800w.webp 800w"
-              sizes="(max-width: 600px) 500px,
+              sizes="(max-width: 600px) 480px,
             800px"
               src="images/drinks/drink3-800w.webp"
               alt="first drink"
@@ -59,9 +61,9 @@ const Home = () => {
         </div>
         <div className="featured">
           <img
-            srcSet="images/outImage-480w.webp 500w,
+            srcSet="images/outImage-480w.webp 480w,
              images/outImage-800w.webp 800w"
-            sizes="(max-width: 600px) 500px,
+            sizes="(max-width: 600px) 480px,
             800px"
             src="images/outImage-800w.webp"
             alt="first drink"
@@ -69,9 +71,9 @@ const Home = () => {
             width="800"
           />
           <img
-            srcSet="images/poster-480w.webp 500w,
+            srcSet="images/poster-480w.webp 480w,
              images/poster-800w.webp 800w"
-            sizes="(max-width: 600px) 500px,
+            sizes="(max-width: 600px) 480px,
             800px"
             src="images/poster-800w.webp"
             alt="first drink"
@@ -85,16 +87,16 @@ const Home = () => {
         </div>
         <div className="ingredients">
           <h1>Fresh & Local Ingredients</h1>
-          {/* <img
-            srcSet="images/items/item9-480w.webp 500w,
-             images/items/item9-800w.webp 800w"
-            sizes="(max-width: 600px) 500px,
+          <img
+            srcSet="images/items/item8-480w.webp 480w,
+             images/items/item8-800w.webp 800w"
+            sizes="(max-width: 600px) 480px,
             800px"
-            src="images/items/item9-800w.webp"
+            src="images/items/item8-800w.webp"
             alt="first drink"
             height="619"
             width="800"
-          /> */}
+          />
         </div>
         <Footer />
       </main>
