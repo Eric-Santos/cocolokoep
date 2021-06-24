@@ -85,7 +85,7 @@ const Home = () => {
         </div>
         <div className="ingredients">
           <h1>Fresh & Local Ingredients</h1>
-          <img
+          {/* <img
             srcSet="images/items/item9-480w.webp 500w,
              images/items/item9-800w.webp 800w"
             sizes="(max-width: 600px) 500px,
@@ -94,7 +94,7 @@ const Home = () => {
             alt="first drink"
             height="619"
             width="800"
-          />
+          /> */}
         </div>
         <Footer />
       </main>
