@@ -23,7 +23,14 @@ const Home = () => {
         <h1 className="foods-title">Food and Drinks</h1>
         <div className="gallery">
           <div className="item">
-            <img src="images/items/items3.webp" alt="a couple of beers" />
+            <img
+              srcSet="images/items/item3-480w.webp 480w,
+             images/items/item3.webp 800w"
+              sizes="(max-width: 600px) 480px,
+            800px"
+              src="images/items/item3-800w.webp"
+              alt="item 3"
+            />
           </div>
           <div className="item">
             <img src="images/drinks/drinks2.webp" alt="caguamas" />
@@ -33,8 +40,22 @@ const Home = () => {
           </div>
         </div>
         <div className="featured">
-          <img src="images/outImage.webp" alt="front of restaurant" />
-          <img src="images/poster.webp" alt="clamato" />
+          <img
+            srcSet="images/outImage-480w.webp 500w,
+             images/outImage-800w.webp 800w"
+            sizes="(max-width: 600px) 500px,
+            800px"
+            src="images/outImage-800w.webp"
+            alt="first drink"
+          />
+          <img
+            srcSet="images/poster-480w.webp 500w,
+             images/poster-800w.webp 800w"
+            sizes="(max-width: 600px) 500px,
+            800px"
+            src="images/poster-800w.webp"
+            alt="first drink"
+          />
           <img src="images/temp/plantRestaurant.jpg" alt="placeholder" />
           <Link to="menu">
             <button>Our Menu</button>
