@@ -3,13 +3,18 @@
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  background-image: url('../bkg-images/bck.webp');
+  background-image: url('../bkg-images/bck-mobile-960w.webp');
   background-attachment: fixed;
   background-size: cover;
   background-color: #30d5c8;
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 2rem;
+}
+@media screen and (min-width: 960px) {
+  .home {
+    background-image: url('../bkg-images/bck-1920w.webp');
+  }
 }
 .home .hero {
   display: flex;

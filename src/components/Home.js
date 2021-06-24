@@ -33,10 +33,28 @@ const Home = () => {
             />
           </div>
           <div className="item">
-            <img src="images/drinks/drinks2.webp" alt="caguamas" />
+            <img
+              srcSet="images/drinks/drink2-480w.webp 500w,
+             images/drinks/drink2-800w.webp 800w"
+              sizes="(max-width: 600px) 500px,
+            800px"
+              src="images/drinks/drink2-800w.webp"
+              alt="first drink"
+              height="619"
+              width="800"
+            />
           </div>
           <div className="item">
-            <img src="images/drinks/drinks3.webp" alt="fish" />
+            <img
+              srcSet="images/drinks/drink3-480w.webp 500w,
+             images/drinks/drink3-800w.webp 800w"
+              sizes="(max-width: 600px) 500px,
+            800px"
+              src="images/drinks/drink3-800w.webp"
+              alt="first drink"
+              height="619"
+              width="800"
+            />
           </div>
         </div>
         <div className="featured">
@@ -47,6 +65,8 @@ const Home = () => {
             800px"
             src="images/outImage-800w.webp"
             alt="first drink"
+            height="619"
+            width="800"
           />
           <img
             srcSet="images/poster-480w.webp 500w,
@@ -55,15 +75,26 @@ const Home = () => {
             800px"
             src="images/poster-800w.webp"
             alt="first drink"
+            height="619"
+            width="800"
           />
-          <img src="images/temp/plantRestaurant.jpg" alt="placeholder" />
+          {/* <img src="images/temp/plantRestaurant.jpg" alt="placeholder" /> */}
           <Link to="menu">
             <button>Our Menu</button>
           </Link>
         </div>
         <div className="ingredients">
           <h1>Fresh & Local Ingredients</h1>
-          <img src="images/items/items9.webp" alt="seafood" />
+          <img
+            srcSet="images/items/item9-480w.webp 500w,
+             images/items/item9-800w.webp 800w"
+            sizes="(max-width: 600px) 500px,
+            800px"
+            src="images/items/item9-800w.webp"
+            alt="first drink"
+            height="619"
+            width="800"
+          />
         </div>
         <Footer />
       </main>
