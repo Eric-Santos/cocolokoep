@@ -9,6 +9,8 @@
   background-color: #30d5c8;
   background-position: center;
   background-repeat: no-repeat;
+  height: auto;
+  width: auto;
 }
 .home .hero {
   display: flex;
