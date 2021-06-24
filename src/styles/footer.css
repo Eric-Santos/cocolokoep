@@ -9,7 +9,6 @@ footer {
   footer {
     justify-content: space-evenly;
     height: 60vh;
-    flex-flow: row wrap;
   }
 }
 footer .icons {

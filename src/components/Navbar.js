@@ -13,8 +13,8 @@ const Navbar = () => {
   return (
     <>
       <div className="mobile-menu-bar">
-        <Link to='/' className='link'>
-          <h1>Logo</h1>
+        <Link to="/" className="link">
+          <img src="logo48.png" alt="logo" />
         </Link>
         <HiOutlineMenu className="menu-icon" size="30" onClick={handleClick} />
       </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
         {/* <Link to="/specials" className="link">
           <h1>Specials</h1>
         </Link> */}
-        <h1>Logo</h1>
+        
         <Link to="/about" className="link">
           <h1>About</h1>
         </Link>
