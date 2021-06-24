@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import "../styles/home.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import {Link} from 'react-router-dom'
-import ImageCarousel from "./ImageCarousel";
+import { Link } from "react-router-dom";
+const ImageCarousel = lazy(() => import("./ImageCarousel"));
 
 const Home = () => {
   return (
@@ -12,7 +12,9 @@ const Home = () => {
       <main className="home">
         <div className="hero">
           <h1>Coco Loko</h1>
-          <ImageCarousel />
+          <Suspense fallback={<div>Loading...</div>}>
+            <ImageCarousel />
+          </Suspense>
         </div>
         <div className="hours">
           <h1>Open Wed - Sunday</h1>
