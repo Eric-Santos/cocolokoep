@@ -34,6 +34,12 @@
     width: 50vw;
   }
 }
+.home .featured button {
+  border: none;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 0 1rem;
+}
 .home .foods-title {
   display: flex;
   justify-content: center;
