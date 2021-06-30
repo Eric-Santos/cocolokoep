@@ -33,12 +33,12 @@ const Navbar = () => {
         <Link to="/about" className="link">
           <h1>About</h1>
         </Link>
-        <Link to="/contact" className="link">
+        {/* <Link to="/contact" className="link">
           <h1>Contact</h1>
         </Link>
         <Link to="/careers" className="link">
           <h1>Careers</h1>
-        </Link>
+        </Link> */}
       </nav>
     </>
   );
