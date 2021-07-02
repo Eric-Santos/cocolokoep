@@ -7,6 +7,7 @@ const Specials = lazy(() => import("./components/Specials.js"));
 const About = lazy(() => import("./components/About.js"));
 const Contact = lazy(() => import("./components/Contact.js"));
 const Careers = lazy(() => import("./components/Careers.js"));
+const Sitemap = lazy(() => import("./components/sitemap.xml"));
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/careers" component={Careers} />
+            <Route exact path="/sitemap" component={Sitemap} />
           </Switch>
         </Suspense>
       </Router>
