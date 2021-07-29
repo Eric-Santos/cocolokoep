@@ -43,7 +43,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            Eric Santos
+            -Eric Santos
           </a>
         </h4>
       </div>

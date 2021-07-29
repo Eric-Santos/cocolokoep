@@ -11,10 +11,10 @@ const Home = () => {
       <Navbar />
       <main className="home">
         <div className="hero">
-          <h1>Coco Loko</h1>
-          <Suspense fallback={<div>Loading...</div>}>
+          <div className="sub-hero">sub hero</div>
+          {/* <Suspense fallback={<div>Loading...</div>}>
             <ImageCarousel />
-          </Suspense>
+          </Suspense> */}
         </div>
         <div className="hours">
           <h1>Open Wed - Sunday</h1>
