@@ -1,9 +1,8 @@
-import React, { Suspense, lazy } from "react";
+import React from "react";
 import "../styles/home.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-const ImageCarousel = lazy(() => import("./ImageCarousel"));
 
 const Home = () => {
   return (
@@ -11,14 +10,16 @@ const Home = () => {
       <Navbar />
       <main className="home">
         <div className="hero">
-          <div className="sub-hero">sub hero</div>
-          {/* <Suspense fallback={<div>Loading...</div>}>
-            <ImageCarousel />
-          </Suspense> */}
+          <div className="left">
+            <h1>El Paso, TX</h1>
+            <h2>Authentic Mexican Seafood restaurant</h2>
+          </div>
+          <div className="middle"></div>
+          <div className="right"></div>
         </div>
         <div className="hours">
-          <h1>Open Wed - Sunday</h1>
-          <h2>Noon - 10pm</h2>
+          <h1>Open Tue - Sun</h1>
+          <h2>10:30am - 10pm</h2>
         </div>
 
         {/* Imgae Gallery Section */}

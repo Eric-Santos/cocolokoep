@@ -29,6 +29,8 @@ const Navbar = () => {
         <Link to="/about" className="link">
           <h4>About</h4>
         </Link>
+        {/* Add Phone Icon */}
+        <a href="tel:915-244-1865">915-244-1865</a>
       </nav>
     </>
   );

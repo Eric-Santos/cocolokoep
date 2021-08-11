@@ -1,22 +1,58 @@
 .home {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-flow: column;
+  width: 100vw;
 }
 .home .hero {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row;
-  height: 90vh;
   background-color: lightgrey;
+  height: 90vh;
+  width: 100vw;
 }
-.home .hero .sub-hero {
-  background-color: #30d5c8;
+.home .hero .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 90vh;
+  margin: 1rem;
+}
+@media screen and (min-width: 960px) {
+  .home .hero .left {
+    width: 60%;
+  }
+}
+.home .hero .middle {
+  border: 1px solid black;
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  height: 300px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  position: absolute;
+  top: 100px;
+  left: 650px;
+  width: 30vw;
+  height: 90vh;
+  background-image: url('../bkg-images/bck-1920w.webp');
+}
+.home .hero .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: #006d77;
   height: 90vh;
   width: 30vw;
-  margin-left: 70vw;
 }
 .home .featured {
   display: flex;
