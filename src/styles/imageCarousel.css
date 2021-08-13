@@ -1,6 +1,7 @@
 @media screen and (min-width: 960px) {
   .carousel {
-    height: 90vh;
+    height: auto;
+    width: 50vw;
   }
 }
 .carousel img {

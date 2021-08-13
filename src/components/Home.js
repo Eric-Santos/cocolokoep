@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/home.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import ImageCarousel from "./ImageCarousel";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -9,7 +10,9 @@ const Home = () => {
     <>
       <Navbar />
       <main className="home">
-        <div className="hero"></div>
+        <div className="hero">
+          <ImageCarousel />
+        </div>
         <div className="hours">
           <div className="text">
             <h1>Open Tue - Sun</h1>
@@ -20,13 +23,53 @@ const Home = () => {
         {/* Imgae Gallery Section */}
         <h1 className="foods-title">Food and Drinks</h1>
         <div className="gallery">
-          <div className="item">
+          {/* <div className="item">
             <img
-              srcSet="images/items/item1-480w.webp 480w,
-             images/items/item1-800w.webp 800w"
+              srcSet="images/menu1small.webp 480w,
+             images/menu1.webp 800w"
               sizes="(max-width: 600px) 480px,
             800px"
-              src="images/items/item1-800w.webp"
+              src="images/menu1.webp"
+              alt="first drink"
+              height="619"
+              width="800"
+            />
+            <img
+              srcSet="images/menu1small.webp 480w,
+             images/menu1.webp 800w"
+              sizes="(max-width: 600px) 480px,
+            800px"
+              src="images/menu1.webp"
+              alt="first drink"
+              height="619"
+              width="800"
+            />
+            <img
+              srcSet="images/menu1small.webp 480w,
+             images/menu1.webp 800w"
+              sizes="(max-width: 600px) 480px,
+            800px"
+              src="images/menu1.webp"
+              alt="first drink"
+              height="619"
+              width="800"
+            />
+            <img
+              srcSet="images/menu1small.webp 480w,
+             images/menu1.webp 800w"
+              sizes="(max-width: 600px) 480px,
+            800px"
+              src="images/menu1.webp"
+              alt="first drink"
+              height="619"
+              width="800"
+            />
+            <img
+              srcSet="images/menu1small.webp 480w,
+             images/menu1.webp 800w"
+              sizes="(max-width: 600px) 480px,
+            800px"
+              src="images/menu1.webp"
               alt="first drink"
               height="619"
               width="800"
@@ -78,7 +121,6 @@ const Home = () => {
             height="619"
             width="800"
           />
-          {/* <img src="images/temp/plantRestaurant.jpg" alt="placeholder" /> */}
           <Link to="menu">
             <button>Our Menu</button>
           </Link>
@@ -94,7 +136,7 @@ const Home = () => {
             alt="first drink"
             height="619"
             width="800"
-          />
+          /> */}
         </div>
         <Footer />
       </main>
