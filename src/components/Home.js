@@ -1,24 +1,20 @@
-import React, { Suspense, lazy } from "react";
+import React from "react";
 import "../styles/home.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-const ImageCarousel = lazy(() => import("./ImageCarousel"));
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <main className="home">
-        <div className="hero">
-          <h1>Coco Loko</h1>
-          <Suspense fallback={<div>Loading...</div>}>
-            <ImageCarousel />
-          </Suspense>
-        </div>
+        <div className="hero"></div>
         <div className="hours">
-          <h1>Open Wed - Sunday</h1>
-          <h2>Noon - 10pm</h2>
+          <div className="text">
+            <h1>Open Tue - Sun</h1>
+            <h2>10:30am - 10pm</h2>
+          </div>
         </div>
 
         {/* Imgae Gallery Section */}

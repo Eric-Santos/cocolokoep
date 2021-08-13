@@ -3,6 +3,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: black;
 }
 @media screen and (min-width: 960px) {
   nav {
@@ -12,7 +13,7 @@ nav {
 nav .link {
   text-decoration: none;
   padding: 1.5rem;
-  color: black;
+  color: white;
 }
 .mobile-menu-bar {
   display: flex;

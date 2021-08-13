@@ -19,26 +19,18 @@ const Navbar = () => {
         <HiOutlineMenu className="menu-icon" size="30" onClick={handleClick} />
       </div>
       <nav className={isActive ? "open" : null}>
+        <h1>CocoLoko</h1>
         <Link to="/" className="link">
-          <h1>Home</h1>
+          <h4>Home</h4>
         </Link>
         <Link to="/menu" className="link">
-          <h1>Menu</h1>
+          <h4>Menu</h4>
         </Link>
-        {/* no specials available as of right now */}
-        {/* <Link to="/specials" className="link">
-          <h1>Specials</h1>
-        </Link> */}
-        
         <Link to="/about" className="link">
-          <h1>About</h1>
+          <h4>About</h4>
         </Link>
-        {/* <Link to="/contact" className="link">
-          <h1>Contact</h1>
-        </Link>
-        <Link to="/careers" className="link">
-          <h1>Careers</h1>
-        </Link> */}
+        {/* Add Phone Icon */}
+        <a href="tel:915-244-1865">915-244-1865</a>
       </nav>
     </>
   );
