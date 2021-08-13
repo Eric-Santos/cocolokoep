@@ -3,7 +3,7 @@ import "../styles/home.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import ImageCarousel from "./ImageCarousel";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
