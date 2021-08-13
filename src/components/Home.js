@@ -9,17 +9,12 @@ const Home = () => {
     <>
       <Navbar />
       <main className="home">
-        <div className="hero">
-          <div className="left">
-            <h1>El Paso, TX</h1>
-            <h2>Authentic Mexican Seafood restaurant</h2>
-          </div>
-          <div className="middle"></div>
-          <div className="right"></div>
-        </div>
+        <div className="hero"></div>
         <div className="hours">
-          <h1>Open Tue - Sun</h1>
-          <h2>10:30am - 10pm</h2>
+          <div className="text">
+            <h1>Open Tue - Sun</h1>
+            <h2>10:30am - 10pm</h2>
+          </div>
         </div>
 
         {/* Imgae Gallery Section */}
