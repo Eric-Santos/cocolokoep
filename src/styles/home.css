@@ -5,6 +5,9 @@
   flex-flow: column;
   width: 100vw;
 }
+.home .hero {
+  width: 95vw;
+}
 .home .hero .left {
   display: flex;
   justify-content: center;
@@ -115,8 +118,14 @@
   flex-flow: column;
   background-color: #28282B;
   margin: 2rem;
-  height: 20vh;
-  width: 30vw;
+  height: 30vh;
+  width: 65vw;
+}
+@media screen and (min-width: 960px) {
+  .home .hours .text {
+    height: 20vh;
+    width: 30vw;
+  }
 }
 .home .hours .text h1,
 .home .hours .text h2 {

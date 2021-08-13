@@ -21,9 +21,9 @@ const Home = () => {
         </div>
 
         {/* Imgae Gallery Section */}
-        <h1 className="foods-title">Food and Drinks</h1>
-        <div className="gallery">
-          {/* <div className="item">
+        {/* <h1 className="foods-title">Food and Drinks</h1> */}
+        {/* <div className="gallery"> */}
+        {/* <div className="item">
             <img
               srcSet="images/menu1small.webp 480w,
              images/menu1.webp 800w"
@@ -137,7 +137,7 @@ const Home = () => {
             height="619"
             width="800"
           /> */}
-        </div>
+        {/* </div> */}
         <Footer />
       </main>
     </>

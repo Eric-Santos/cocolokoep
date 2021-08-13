@@ -19,13 +19,15 @@ const Navbar = () => {
         <HiOutlineMenu className="menu-icon" size="30" onClick={handleClick} />
       </div>
       <nav className={isActive ? "open" : null}>
-        <h1>CocoLoko</h1>
+        <Link to="/" className="link">
+          <h1>CocoLoko</h1>
+        </Link>
         <Link to="/" className="link">
           <h4>Home</h4>
         </Link>
-        <Link to="/menu" className="link">
+        {/* <Link to="/menu" className="link">
           <h4>Menu</h4>
-        </Link>
+        </Link> */}
         <Link to="/about" className="link">
           <h4>About</h4>
         </Link>

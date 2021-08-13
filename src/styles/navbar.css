@@ -5,6 +5,9 @@ nav {
   flex-flow: row wrap;
   background-color: black;
 }
+nav h1 {
+  color: white;
+}
 @media screen and (min-width: 960px) {
   nav {
     display: flex;

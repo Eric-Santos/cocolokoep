@@ -12,152 +12,92 @@ const ImageCarousel = () => (
     className="carousel"
   >
     <img
-      srcSet="images/drinks/drink1-480w.webp 500w,
-             images/drinks/drink1-800w.webp 800w"
+      srcSet="images/menu1small.webp 500w,
+             images/menu1.webp 800w"
       sizes="(max-width: 600px) 500px,
             800px"
-      src="images/drinks/drink1-800w.webp"
-      alt="first drink"
+      src="images/menu1.webp"
+      alt="aguachiles"
       height="619"
       width="800"
     />
     <img
-      srcSet="images/poster-480w.webp 500w,
-             images/poster-800w.webp 800w"
+      srcSet="images/menu2small.webp 500w,
+             images/menu2.webp 800w"
       sizes="(max-width: 600px) 500px,
             800px"
-      src="images/poster-800w.webp"
-      alt="poster"
+      src="images/menu2.webp"
+      alt="michelada"
       height="619"
       width="800"
     />
     <img
-      srcSet="images/items/item1-480w.webp 500w,
-             images/items/item1-800w.webp 800w"
+      srcSet="images/menu3small.webp 500w,
+             images/menu3.webp 800w"
       sizes="(max-width: 600px) 500px,
             800px"
-      src="images/items/item1-800w.webp"
-      alt="first drink"
+      src="images/menu3.webp"
+      alt="beer"
       height="619"
       width="800"
     />
     <img
-      srcSet="images/drinks/drink2-480w.webp 480w,
-             images/drinks/drink2-800w.webp 800w"
-      sizes="(max-width: 600px) 480px,
-            800px"
-      src="images/drinks/drink2-800w.webp"
-      alt="second drink"
-      height="619"
-      width="800"
-    />
-    <img
-      srcSet="images/items/item2-480w.webp 500w,
-             images/items/item2-800w.webp 800w"
+      srcSet="images/menu4small.webp 500w,
+             images/menu4.webp 800w"
       sizes="(max-width: 600px) 500px,
             800px"
-      src="images/items/item2-800w.webp"
-      alt="first drink"
+      src="images/menu4.webp"
+      alt="kids menu"
       height="619"
       width="800"
     />
     <img
-      srcSet="images/drinks/drink3-480w.webp 480w,
-             images/drinks/drink3-800w.webp 800w"
-      sizes="(max-width: 600px) 480px,
-            800px"
-      src="images/drinks/drink3-800w.webp"
-      alt="third drink"
-      height="619"
-      width="800"
-    />
-    <img
-      srcSet="images/items/item3-480w.webp 500w,
-             images/items/item3-800w.webp 800w"
+      srcSet="images/menu5small.webp 500w,
+             images/menu5.webp 800w"
       sizes="(max-width: 600px) 500px,
             800px"
-      src="images/items/item3-800w.webp"
-      alt="first drink"
+      src="images/menu5.webp"
+      alt="clamato"
       height="619"
       width="800"
     />
     <img
-      srcSet="images/drinks/drink4-480w.webp 480w,
-             images/drinks/drink4-800w.webp 800w"
-      sizes="(max-width: 600px) 480px,
-            800px"
-      src="images/drinks/drink4-800w.webp"
-      alt="third drink"
-      height="619"
-      width="800"
-    />
-    <img
-      srcSet="images/items/item4-480w.webp 500w,
-             images/items/item4-800w.webp 800w"
+      srcSet="images/menu6small.webp 500w,
+             images/menu6.webp 800w"
       sizes="(max-width: 600px) 500px,
             800px"
-      src="images/items/item4-800w.webp"
-      alt="first drink"
+      src="images/menu6.webp"
+      alt="shrimp cocktail"
       height="619"
       width="800"
     />
     <img
-      srcSet="images/drinks/drink5-480w.webp 480w,
-             images/drinks/drink5-800w.webp 800w"
-      sizes="(max-width: 600px) 480px,
-            800px"
-      src="images/drinks/drink5-800w.webp"
-      alt="third drink"
-      height="619"
-      width="800"
-    />
-    <img
-      srcSet="images/items/item5-480w.webp 500w,
-             images/items/item5-800w.webp 800w"
+      srcSet="images/menu7small.webp 500w,
+             images/menu7.webp 800w"
       sizes="(max-width: 600px) 500px,
             800px"
-      src="images/items/item5-800w.webp"
-      alt="first drink"
+      src="images/menu7.webp"
+      alt="huachinango"
       height="619"
       width="800"
     />
     <img
-      srcSet="images/drinks/drink6-480w.webp 480w,
-             images/drinks/drink6-800w.webp 800w"
-      sizes="(max-width: 600px) 480px,
-            800px"
-      src="images/drinks/drink6-800w.webp"
-      alt="third drink"
-      height="619"
-      width="800"
-    />
-    <img
-      srcSet="images/items/item6-480w.webp 500w,
-             images/items/item6-800w.webp 800w"
+      srcSet="images/menu8small.webp 500w,
+             images/menu8.webp 800w"
       sizes="(max-width: 600px) 500px,
             800px"
-      src="images/items/item6-800w.webp"
-      alt="first drink"
+      src="images/menu8.webp"
+      alt="sampler"
       height="619"
       width="800"
     />
     <img
-      srcSet="images/items/item7-480w.webp 500w,
-             images/items/item7-800w.webp 800w"
+      srcSet="images/menu9small.webp 500w,
+             images/menu9.webp 800w"
       sizes="(max-width: 600px) 500px,
             800px"
-      src="images/items/item7-800w.webp"
-      alt="first drink"
-      height="619"
-      width="800"
-    />
-    <img
-      srcSet="images/items/item8-480w.webp 500w,
-             images/items/item8-800w.webp 800w"
-      sizes="(max-width: 600px) 500px,
-            800px"
-      src="images/items/item8-800w.webp"
-      alt="first drink"
+      src="images/menu9.webp"
+      alt="torre de mariscos"
       height="619"
       width="800"
     />

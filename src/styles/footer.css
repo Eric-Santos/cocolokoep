@@ -3,7 +3,12 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  height: 100vh;
+  height: 50vh;
+  width: 90vw;
+  background-color: #28282B;
+}
+footer .title h1 {
+  color: aliceblue;
 }
 @media screen and (min-width: 960px) {
   footer {
@@ -15,7 +20,7 @@ footer .icons {
   flex-flow: row;
 }
 footer .icons a {
-  color: black;
+  color: aliceblue;
 }
 footer .icons a .icon {
   margin: 1rem;
