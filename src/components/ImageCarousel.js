@@ -12,6 +12,16 @@ const ImageCarousel = () => (
     className="carousel"
   >
     <img
+      srcSet="images/menu0.webp 500w,
+             images/menu0.webp 800w"
+      sizes="(max-width: 600px) 500px,
+            800px"
+      src="images/menu0.webp"
+      alt="cover"
+      height="619"
+      width="800"
+    />
+    <img
       srcSet="images/menu1small.webp 500w,
              images/menu1.webp 800w"
       sizes="(max-width: 600px) 500px,
