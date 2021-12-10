@@ -15,8 +15,11 @@ const Home = () => {
         </div>
         <div className="hours">
           <div className="text">
-            <h1>Open Tue - Sun</h1>
-            <h2>10:30am - 12pm</h2>
+            <h1>Closed Mondays</h1>
+            <h1>Open Sun - Thur</h1>
+            <h2>10:30am - 10pm</h2>
+            <h1>Open Fri - Sat</h1>
+            <h2>10:30am - 12am</h2>
           </div>
         </div>
         <Footer />
